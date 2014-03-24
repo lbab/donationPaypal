@@ -1,0 +1,6 @@
+# règle pour git
+
+# ignore le fichier project créé par eclise
+.project
+.buildpath
+.settings/
