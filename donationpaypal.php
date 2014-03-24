@@ -246,12 +246,13 @@ class DonationPaypal extends Module
 	        array(
 	            'business_id' => Configuration::get('business_id'),
 	            'company_name' => str_replace(' ', '', Configuration::get('blockcontactinfos_company')),
-	            'iso_code' => Country::getIsoById((int)Configuration::get('PS_COUNTRY_DEFAULT')),
+	            'iso_code' => $this->context->language->iso_code,
 	            'item_name' => Configuration::get('item_name'),
 	            'page_style' => Configuration::get('page_style'),
 	            //'no_note' => Configuration::get('no_note'),
 	            //'cn' => Configuration::get('cn'),
 	            'cbt' => Configuration::get('cbt'),
+	            'language_code' => $this->context->language->language_code
 	        )
 	    );
 	    $this->context->smarty->assignByRef('currency', $this->context->currency);

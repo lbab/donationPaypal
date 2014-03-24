@@ -32,7 +32,7 @@
 
 			<!-- Specify details about the contribution -->
 			<input type="hidden" name="currency_code" value="{$currency->iso_code}"> <!-- OK optionnal -->
-			<input type="hidden" name="lc" value="{$iso_code}">
+			<input type="hidden" name="lc" value="{$language_code}">
 			<div class="form-group"><input type="text" name="amount" maxlength="16"> {$currency->sign}</div> <!-- OK optionnal -->
 			{if !empty($item_name)}
 			<input type="hidden" name="item_name" value="{$item_name}"><!-- OK optionnal -->
