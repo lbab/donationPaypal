@@ -46,7 +46,10 @@ class DonationPaypal extends Module
 		    Configuration::updateValue('page_style', 'paypal') && 
 		    //Configuration::updateValue('no_note', 0) && 
 		    $this->registerHook('displayHeader') && 
-		    $this->registerHook('displayFooter')
+		    $this->registerHook('displayFooter') &&
+		    $this->registerHook('displayLeftColumn') && 
+		    $this->registerHook('displayRightColumn') 
+		    
 		);
 	}
 	
