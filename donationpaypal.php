@@ -44,6 +44,7 @@ class DonationPaypal extends Module
 	    
 		return (parent::install() && 
 		    Configuration::updateValue('page_style', 'paypal') && 
+		    Configuration::updateValue('display_message', 'Support our organization by donating with PayPal') &&
 		    //Configuration::updateValue('no_note', 0) && 
 		    $this->registerHook('displayHeader') && 
 		    $this->registerHook('displayFooter') &&
@@ -61,7 +62,8 @@ class DonationPaypal extends Module
 		    Configuration::deleteByName('page_style') &&
 		    //Configuration::deleteByName('no_note') &&
 		    //Configuration::deleteByName('cn') &&
-		    Configuration::deleteByName('cbt')
+		    Configuration::deleteByName('cbt') && 
+		    Configuration::deleteByName('display_message')
 		);
 	}
 	
@@ -94,6 +96,7 @@ class DonationPaypal extends Module
 	            //Configuration::updateValue('no_note', Tools::getValue('no_note'));
 	            //Configuration::updateValue('cn', strval(Tools::getValue('cn')));
 	            Configuration::updateValue('cbt',strval(Tools::getValue('cbt')));
+	            Configuration::updateValue('display_message',strval(Tools::getValue('display_message')));
 	            
 	            $output .= $this->displayConfirmation($this->l('Settings updated'));
 	        }
@@ -183,6 +186,12 @@ class DonationPaypal extends Module
 	                'name' => 'cbt',
 	                'desc' => $this->l('If blanck, the text reads "Return to donations coordinator" by default.'),
 	                'required' => false,
+	            ),
+	            array(
+	                'type' => 'text',
+	                'label' => $this->l('Message posted on the website'),
+	                'name' => 'display_message',
+	                'required' => false,
 	            )
 	        ),
 	        'submit' => array(
@@ -216,20 +225,21 @@ class DonationPaypal extends Module
 	    //$helper->fields_value['no_note'] = Configuration::get('no_note');
 	    //$helper->fields_value['cn'] = Configuration::get('cn');
 	    $helper->fields_value['cbt'] = Configuration::get('cbt');
+	    $helper->fields_value['display_message'] = Configuration::get('display_message');
 	     
 	    return $helper->generateForm($fields_form);
 	}
 	
 	public function hookDisplayHeader()
 	{
-		$this->context->controller->addCSS(($this->_path).'views/css/donationPaypal.css', 'all');
+		$this->context->controller->addCSS(($this->_path).'views/css/donationpaypal.css', 'all');
 	}
 	
 	public function hookDisplayLeftColumn()
 	{
 	    $this->assignement();
 	    
-	    return $this->display(__FILE__, 'displayLeftColumn.tpl');
+	    return $this->display(__FILE__, 'display_left_column.tpl');
 	}
 	
 	public function hookDisplayRightColumn()
@@ -241,12 +251,14 @@ class DonationPaypal extends Module
 	{
 		$this->assignement();
 
-		return $this->display(__FILE__, 'displayFooter.tpl');
+		return $this->display(__FILE__, 'display_footer.tpl');
 	}
 	
 	private function assignement(){
+	    
 	    $this->context->smarty->assign(
 	        array(
+	            'title' => $this->l('Donate'),
 	            'business_id' => Configuration::get('business_id'),
 	            'company_name' => str_replace(' ', '', Configuration::get('blockcontactinfos_company')),
 	            'iso_code' => $this->context->language->iso_code,
@@ -255,6 +267,7 @@ class DonationPaypal extends Module
 	            //'no_note' => Configuration::get('no_note'),
 	            //'cn' => Configuration::get('cn'),
 	            'cbt' => Configuration::get('cbt'),
+	            'display_message' => Configuration::get('display_message'),
 	            'language_code' => $this->context->language->language_code
 	        )
 	    );

@@ -1,0 +1,58 @@
+/* donation Paypal */
+
+.donationpaypal .form-group.lbab-amount, .donationpaypal .lbab-donation-btn {
+	position:relative;
+	width:170px;
+}
+
+.donationpaypal .form-group.lbab-amount span { 
+    color: #908f8f;
+	padding:10px 0;
+	font-size:25px;
+    position: absolute;
+    right:20px;
+    top: 4px;
+	width: 35px;
+	height:39px;
+	background:#cecece;
+	z-index:100;
+	text-shadow:1px 1px 1px #FFF;
+	text-align:center;
+	border-radius:0 3px 3px 0;
+}
+
+.donationpaypal .form-group.lbab-amount input {
+	margin-top: 4px;
+	padding: 10px 37px 10px 10px;	
+	border: 1px solid rgb(178, 178, 178);
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	  -moz-box-sizing : content-box;
+	       box-sizing : content-box;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	   -moz-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	        box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	-webkit-transition: all 0.2s linear;
+	   -moz-transition: all 0.2s linear;
+	     -o-transition: all 0.2s linear;
+	        transition: all 0.2s linear;
+	width:102px;
+	position:relative;
+}
+
+.donationpaypal .lbab-donation-btn input {
+	cursor: pointer;
+	font:600 18px/22px "Open Sans", sans-serif;	
+	background: #cecece;
+	border-radius: 3px;	
+	text-transform:uppercase;
+	padding:6px;
+	border:0;
+	width:150px;
+	font-size:18px;
+	color:#908f8f;
+	text-shadow:1px 1px 1px #FFF;
+}

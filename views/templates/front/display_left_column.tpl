@@ -10,9 +10,17 @@
 
 <!-- Donation Paypal -->
 
-<section id='donationpaypal_footer' class="footer-block col-xs-12 col-sm-2">
-	<h4>{l s='Donate' mod='donationpaypal'}</h4>
-	<div class="block_content toggle-footer">
+<section id='donationpaypal_block_left' class="donationpaypal block">
+	<h4 class="title_block">{$title}</h4>
+	<div class="block_content">
+		
+		<!-- Display information message -->
+		{if !empty($display_message)}
+		<div class="form-group">
+			<p>{$display_message}</p>
+		</div>
+		{/if}
+			
 		<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 
 			<!-- Identify your business so that you can collect the payments. -->
@@ -32,14 +40,16 @@
 
 			<!-- Specify details about the contribution -->
 			<input type="hidden" name="currency_code" value="{$currency->iso_code}"> <!-- OK optionnal -->
-			<input type="hidden" name="lc" value="{$language_code}">
-			<div class="form-group"><input type="text" name="amount" maxlength="16"> {$currency->sign}</div> <!-- OK optionnal -->
+			<input type="hidden" name="lc" value="{$iso_code}">
+			<div class="form-group lbab-amount">
+				<input type="text" name="amount" maxlength="16"><span>{$currency->sign}</span> <!-- OK optionnal -->
+			</div>
 			{if !empty($item_name)}
 			<input type="hidden" name="item_name" value="{$item_name}"><!-- OK optionnal -->
 			{/if}
 			
 			<!--  DESIGN -->
-			<!--  <input type="hidden" name="image_url" value="{$base_dir}img/logo.jpg"> -->
+			<!--  <input type="hidden" name="image_url" value="http://joie-et-vie.lbab.fr/img/logo.jpg"> -->
 			<input type="hidden" name="page_style" value="{$page_style}"><!-- OK optionnal -->
 
 			<!-- OTHER -->
@@ -72,16 +82,13 @@
 			
 			{/if}
 			
-			
-			
 			<!-- Display the payment button. -->
-			<div class="form-group">
-			<input type="image" name="submit" border="0" src="{$base_dir}modules/donationpaypal/img/donation-paypal.jpg"	alt="PayPal - The safer, easier way to pay online">
+			<div class="form-group lbab-donation-btn">
+			<input type="submit" name="submit" value="{l s='Donate Now' mod='donationpaypal'}">
 			</div>
 		</form>
 		
 	</div>
-	<div class="clearfix"></div>
 </section>
 
 <!-- /Donation Paypal -->
