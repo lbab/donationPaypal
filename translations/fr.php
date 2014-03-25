@@ -28,5 +28,5 @@ $_MODULE['<{donationpaypal}default-bootstrap>donationpaypal_c9cc8cce247e49bae79f
 $_MODULE['<{donationpaypal}default-bootstrap>donationpaypal_0584e445d656b83b431227bb80ff0c30'] = 'Faire un don';
 $_MODULE['<{donationpaypal}default-bootstrap>display_footer_dc7656bc89738ac23afbe6b6c36b43ae'] = 'Faire un don';
 $_MODULE['<{donationpaypal}default-bootstrap>display_left_column_dc7656bc89738ac23afbe6b6c36b43ae'] = 'Faire un don';
-$_MODULE['<{donationpaypal}default-bootstrap>infos_0f32508cad96bd9d7ed527795076a64f'] = 'Recevoir des dons avec le service Paypal.';
-$_MODULE['<{donationpaypal}default-bootstrap>infos_1c15a441ec792de85a9006919dcb2f96'] = 'Si vous aimez ce module, faites-nous le savoir sur la page du module.';
+$_MODULE['<{donationpaypal}default-bootstrap>infos_962d95857188e745b82f50754437302b'] = 'Si vous aimez ce module, merci de nous le faire savoir sur la page officiel de celui-ci';
+$_MODULE['<{donationpaypal}default-bootstrap>infos_0d1f2f77570463262569709fec04c0d6'] = 'Trouver plus de modules prestashop dans notre boutique';

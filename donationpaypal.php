@@ -71,7 +71,9 @@ class DonationPaypal extends Module
 	{
 	    $this->context->smarty->assign(
 	        array(
-	            'moduleName' => $this->displayName
+	            'moduleName' => $this->displayName,
+	            'description' => $this->description,
+	            'version' => $this->version
 	        )
 	    );
 	    

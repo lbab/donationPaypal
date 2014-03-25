@@ -9,9 +9,11 @@
  *}
 
 <div class="panel panel-default">
-<img src="../modules/donationpaypal/logo.png" style="float:left; margin-right:15px;">
-<p><strong>{l s="Allows customers to give you a donation with Paypal service." mod='donationpaypal'}</strong></p>
-<p>{l s="If you like this module, please let us know on the module page." mod='donationpaypal'} : <a target="_blank" href="http://www.lbab.fr/module/1-module-donation-paypal-prestashop.html">{$moduleName}</a></p>
+<img src="../modules/donationpaypal/img/logo.png" style="float:left; margin-right:15px;">
+<p><strong>{$moduleName} {$version}</strong></p>
+<p><strong>{$description}</strong></p>
+<p>{l s="If you like this module, please let us know on the module page" mod='donationpaypal'} : <a target="_blank" href="http://www.lbab.fr/module/1-module-donation-paypal-prestashop.html">{$moduleName}</a></p>
+<p>{l s="Find more prestashop modules in our shop" mod='donationpaypal'} : <a target="_blank" href="http://www.lbab.fr/">www.lbab.fr</a></p>
 
 
 </div>
