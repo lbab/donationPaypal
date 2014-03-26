@@ -1,5 +1,7 @@
-Donation Paypal Module for Prestashop 1.6
+Donation Paypal Module for Prestashop
 =========================================
+#####Avaible on Prestashop 1.5 and 1.6
+
 Allows customers to give you a donation with Paypal service.
 
 [Donation Paypal official website] (http://www.lbab.fr/modules-prestashop/1-module-don-paypal.html)
