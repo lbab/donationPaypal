@@ -16,7 +16,8 @@ Demo website
 
 Download link
 -------------
-[Donation Paypal official website] (http://www.lbab.fr/modules-prestashop/1-module-don-paypal.html)
+[Donation Paypal official website] (//www.lbab.fr/modules-prestashop/1-module-don-paypal.html)
+(see at the footer or a page listing products)
 
 
 Module key features
@@ -34,7 +35,7 @@ Prefilled user's information if the user is connected
 
 Authors and Contributors
 ------------------------
-Donation Paypal for Prestashop is developed by LBAB ( http://www.lbab.fr). Please help us to improve it by reporting bugs and suggestions to contact@lbab.fr.
+Donation Paypal for Prestashop is developed by [Web Agency LBAB] (//www.lbab.fr). Please help us to improve it by reporting bugs and suggestions to contact@lbab.fr.
 
 
 Support or Contact
