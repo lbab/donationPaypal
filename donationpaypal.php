@@ -6,7 +6,7 @@
  * @author LBAB <contact@lbab.fr>
  * @copyright Copyright (c) 2014 LBAB.
  * @license GNU/GPL version 3
- * @version 1.0.0
+ * @version 1.0.1
  * @link www.lbab.fr
  */
 
@@ -21,10 +21,10 @@ class DonationPaypal extends Module
 	    
 		$this->name = 'donationpaypal';
 		$this->tab = 'payments_gateways';
-		$this->version = '1.0';
+		$this->version = '1.0.1';
 		$this->author = 'LBAB';
 		$this->need_instance = 0;
-		$this->ps_versions_compliancy = array('min' => '1.5');
+		$this->ps_versions_compliancy = array('min' => '1.5', 'max' => '1.6');
 
 		parent::__construct();
 
