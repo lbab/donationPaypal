@@ -1,4 +1,4 @@
-Donation Paypal Module for Prestashop v1.0.1
+Donation Paypal Module for Prestashop v1.0.2
 ============================================
 **Avaible on Prestashop 1.5 and 1.6**
 

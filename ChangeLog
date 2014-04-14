@@ -2,6 +2,9 @@
 DonationPaypal ChangeLog
 --------------------------------------------------------------
 
+***** ChangeLog for 1.0.2 *****
+Fix: Not display tpl bug on PrestaShop 1.5
+
 ***** ChangeLog for 1.0.1 *****
 Fix: Translation not loaded on 1.5
 Fix: Not compliant with version PrestaShop 1.5

@@ -6,7 +6,7 @@
  * @author LBAB <contact@lbab.fr>
  * @copyright Copyright (c) 2014 LBAB.
  * @license GNU/GPL version 3
- * @version 1.0.1
+ * @version 1.0.2
  * @link www.lbab.fr
  */
 
@@ -234,7 +234,11 @@ class DonationPaypal extends Module
 	
 	public function hookDisplayHeader()
 	{
-		$this->context->controller->addCSS(($this->_path).'views/css/donationpaypal.css', 'all');
+        if(version_compare(_PS_VERSION_, 1.6, '<') == 1){
+	        $this->context->controller->addCSS(($this->_path).'views/css/donationpaypal1.5.css', 'all');
+	    } else {
+	        $this->context->controller->addCSS(($this->_path).'views/css/donationpaypal.css', 'all');
+	    }
 	}
 	
 	public function hookDisplayLeftColumn()
