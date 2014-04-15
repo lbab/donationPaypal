@@ -1,4 +1,4 @@
-Donation Paypal Module for Prestashop v1.0.2
+Donation Paypal Module for Prestashop v1.1.0
 ============================================
 **Avaible on Prestashop 1.5 and 1.6**
 
@@ -24,7 +24,7 @@ Module key features
 -------------------
 * Avaible on Prestashop 1.5 and 1.6
 
-* Translated into French and English
+* Translated into French, English and Spanish
 
 * Choose the item name or let the donor able to fill in the field paypal interface
 
@@ -44,5 +44,9 @@ Support or Contact
 ------------------
 Having trouble with module? Contact contact@lbab.fr and we’ll help you sort it out.
 
+
+Licence
+-------
+GNU/LGPL version 3
 
 [by Lbab](//www.lbab.fr)

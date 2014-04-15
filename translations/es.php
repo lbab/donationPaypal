@@ -1,0 +1,32 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{donationpaypal}prestashop>donationpaypal_a32a06a7d76c35e4dfb6b0b0be620138'] = 'Donativos Paypal';
+$_MODULE['<{donationpaypal}prestashop>donationpaypal_0f32508cad96bd9d7ed527795076a64f'] = 'Recibir donativos con el servicio Paypal.';
+$_MODULE['<{donationpaypal}prestashop>donationpaypal_fa214007826415a21a8456e3e09f999d'] = 'Está seguro de que quiere suprimir su información ?';
+$_MODULE['<{donationpaypal}prestashop>donationpaypal_f3d5fa8c170809b7852424d2eec69b51'] = 'Debe introducir su ID de PayPal';
+$_MODULE['<{donationpaypal}prestashop>donationpaypal_4f33bc47a16ff4c1ddd4352fa83fd160'] = 'ID PayPal inválido';
+$_MODULE['<{donationpaypal}prestashop>donationpaypal_c888438d14855d7d96a2724ee9c306bd'] = 'Parámetros actualizados';
+$_MODULE['<{donationpaypal}prestashop>donationpaypal_f4f70727dc34561dfde1a3c529b6205c'] = 'Parámetros';
+$_MODULE['<{donationpaypal}prestashop>donationpaypal_4a32877c6dd92b18bc7062bb5f4f5bc6'] = 'Identificador PayPal';
+$_MODULE['<{donationpaypal}prestashop>donationpaypal_0475ec50e57e4dc044e2f18806d44f86'] = 'Su Identificador PayPal o una dirección de correo electrónico asociada con su cuenta de PayPal. Las direcciones de correo electrónico deberán confirmarse';
+$_MODULE['<{donationpaypal}prestashop>donationpaypal_89a228b9ae410a6a4ab461e85eb7dbd7'] = 'Comente su donativo';
+$_MODULE['<{donationpaypal}prestashop>donationpaypal_4df8cdaf0be34e7dc448f685f5d70716'] = 'Si está en blanco, el donante puede indicar la finalidad en la interface de paypal';
+$_MODULE['<{donationpaypal}prestashop>donationpaypal_846455d276b9290ba9fc469f57711119'] = 'Página de pago para PayPal';
+$_MODULE['<{donationpaypal}prestashop>donationpaypal_aa9a9fd4506a7a8699e45fc26282df93'] = 'Si usted tiene una página personalizada con PayPal, usted puede elegir \"custom\", de lo contrario deje \"defecto\"';
+$_MODULE['<{donationpaypal}prestashop>donationpaypal_c4ef237885839c921e9e9166a74b0f88'] = 'Deje margen para una mayor información';
+$_MODULE['<{donationpaypal}prestashop>donationpaypal_91c53f42f23d0dfa1ea5474c277d4750'] = 'Invite a los donantes a completar la información adicional sobre su donación paypal desde la interface';
+$_MODULE['<{donationpaypal}prestashop>donationpaypal_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Activar';
+$_MODULE['<{donationpaypal}prestashop>donationpaypal_b9f5c797ebbf55adccdd8539a65a0241'] = 'Desactivar';
+$_MODULE['<{donationpaypal}prestashop>donationpaypal_de7a15e0d34cb63fe8e8daa1af71ca70'] = 'Explicación que aparece por encima de los campos de información complementaria';
+$_MODULE['<{donationpaypal}prestashop>donationpaypal_fff5b7c2ab6128872f1bdb7c73fe1c83'] = 'Si se omite esta explicación, la explicación por defecto sobre el alcance de la información adicional es \"Añadir instrucciones especiales para comerciantes.\" Esto sólo es válido si el campo \"Más información\" está activado';
+$_MODULE['<{donationpaypal}prestashop>donationpaypal_8a49e119e5d0106f1b9b03eb2375a48a'] = 'Texto del botón de vuelta a su sitio en la página de confirmación de donación PayPal';
+$_MODULE['<{donationpaypal}prestashop>donationpaypal_85dc700241ca37dff0f4438bb3f54cf3'] = 'Si está en blanco, el texto por defecto sera «Return to donations coordinator\".';
+$_MODULE['<{donationpaypal}prestashop>donationpaypal_72f9513b8b4ade47711abd703b3f76e3'] = 'Mensaje publicado en el sitio web';
+$_MODULE['<{donationpaypal}prestashop>donationpaypal_c9cc8cce247e49bae79f15173ce97354'] = 'Registrar';
+$_MODULE['<{donationpaypal}prestashop>donationpaypal_0584e445d656b83b431227bb80ff0c30'] = 'Realizar un donativo';
+$_MODULE['<{donationpaypal}prestashop>display_footer_dc7656bc89738ac23afbe6b6c36b43ae'] = 'Donar';
+$_MODULE['<{donationpaypal}prestashop>display_left_column_dc7656bc89738ac23afbe6b6c36b43ae'] = 'Realizar un donativo';
+$_MODULE['<{donationpaypal}prestashop>infos_962d95857188e745b82f50754437302b'] = 'Si te gusta este módulo, gracias por hacernoslo saber a través de la página oficial del mismo';
+$_MODULE['<{donationpaypal}prestashop>infos_0d1f2f77570463262569709fec04c0d6'] = 'Encuentre más módulos prestashop en nuestra tienda';
