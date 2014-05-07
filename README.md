@@ -19,6 +19,12 @@ Download link
 [Donation Paypal official website] (//www.lbab.fr/modules-prestashop/1-module-don-paypal.html)
 (see at the footer or a page listing products)
 
+Installation
+------------
+1. Check that the name of the folder in the zip is "donationpaypal".
+2. In prestashop, go to the modules tab and click on add a new module.
+3. Click on Browse to open the dialogue box letting you search your computer, select the Zip file then validate the dialogue box. 
+4. Finally click on Upload this module
 
 Module key features
 -------------------
