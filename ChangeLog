@@ -2,6 +2,10 @@
 DonationPaypal ChangeLog
 --------------------------------------------------------------
 
+***** ChangeLog for 1.1.1 *****
+Change : adding the module name in the name of the configuration variables
+Change : moving all tpl in folder views
+
 ***** ChangeLog for 1.1.0 *****
 Add: Spanish translation
 Change: Licence is now GNU/LGPL v3
