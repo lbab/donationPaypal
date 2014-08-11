@@ -2,6 +2,9 @@
 DonationPaypal ChangeLog
 --------------------------------------------------------------
 
+***** ChangeLog for 1.1.2 *****
+Change : change font-size of currency for 3 letters currency
+
 ***** ChangeLog for 1.1.1 *****
 Change : adding the module name in the name of the configuration variables
 Change : moving all tpl in folder views
