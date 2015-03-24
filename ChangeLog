@@ -1,6 +1,8 @@
 --------------------------------------------------------------
 DonationPaypal ChangeLog
 --------------------------------------------------------------
+***** ChangeLog for 1.1.3 *****
+Fix : link "go back to vendor's site" unfortunately not working
 
 ***** ChangeLog for 1.1.2 *****
 Change : change font-size of currency for 3 letters currency

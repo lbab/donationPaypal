@@ -4,7 +4,7 @@
  * @author LBAB <contact@lbab.fr>
  * @copyright Copyright (c) 2014 LBAB.
  * @license GNU/LGPL version 3
- * @version 1.1.1
+ * @version 1.1.3
  * @link www.lbab.fr
  *}
 
@@ -25,9 +25,9 @@
 
 			<!-- Identify your business so that you can collect the payments. -->
 			<input type="hidden" name="business" value="{$business_id}">
-			<input type="hidden" name="return" value="{$smarty.server.HTTP_HOST}{$smarty.server.REQUEST_URI}"> <!-- OK optionnal -->
+			<input type="hidden" name="return" value="{$base_dir}{$smarty.server.REQUEST_URI}"> <!-- OK optionnal -->
 			<input type="hidden" name="rm" value="2" ><!-- OK optionnal -->
-			<input type="hidden" name="cancel_return" value="{$smarty.server.HTTP_HOST}{$smarty.server.REQUEST_URI}" ><!-- OK optionnal -->
+			<input type="hidden" name="cancel_return" value="{$base_dir}{$smarty.server.REQUEST_URI}" ><!-- OK optionnal -->
 			<input type="hidden" name="charset" value="UTF-8"><!-- OK optionnal -->
 
 			<!--OK Specify a Donate button. -->
