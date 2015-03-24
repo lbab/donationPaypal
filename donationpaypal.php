@@ -21,7 +21,7 @@ class donationpaypal extends Module
 
         $this->name = 'donationpaypal';
         $this->tab = 'payments_gateways';
-        $this->version = '1.1.2';
+        $this->version = '1.1.3';
         $this->author = 'LBAB';
         $this->need_instance = 0;
         $this->ps_versions_compliancy = array('min' => '1.5', 'max' => '1.6');
